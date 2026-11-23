@@ -1,10 +1,10 @@
+from typing import Any
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
 
 
-ml_models = {}
 
 
 @asynccontextmanager
